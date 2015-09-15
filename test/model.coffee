@@ -2,7 +2,7 @@
 # works correctly.
 
 {ok, equal, deepEqual}      = require 'assert'
-{Model, Collection, Events} = require '../backbone-model'
+{Model, Collection, Events} = require '../backbone.model'
 
 
 # Patch `ok` to store a count of passed tests...
