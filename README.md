@@ -1,6 +1,6 @@
 #Backbone model layer
 
-[![Build Status][travis-image]][travis-url]
+[![Build Status][https://travis-ci.org/silentMood/backbone.model.svg]][https://travis-ci.org/silentMood/backbone.model]
 [![NPM version][npm-version-image]][npm-url]
 
 need Documentation? ༼ つ ◕_◕ ༽つ
