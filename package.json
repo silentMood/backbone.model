@@ -1,0 +1,33 @@
+{
+  "name"          : "backbone-model",
+  "description"   : "backbonejs model layer",
+  "keywords"      : ["model", "server", "client", "browser"],
+  "author"        : "Jeremy Ashkenas",
+  "dependencies"  : {
+    "underscore"  : ">=1.7.0"
+  },
+  "devDependencies": {
+    "coffee-script": "1.7.1",
+    "docco": "0.7.0",
+    "karma": "^0.12.31",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-qunit": "^0.1.5",
+    "qunitjs": "^1.18.0",
+    "uglify-js": "^2.4.17"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start && coffee test/model.coffee",
+    "build": "uglifyjs backbone-model.js --mangle --source-map backbone-min-model.map -o backbone-min-model.js",
+    "lint": "jsl -nofilelisting -nologo -conf docs/jsl.conf -process backbone-model.js"
+  },
+  "main"          : "backbone-model.js",
+  "version"       : "1.2.3",
+  "license"       : "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silentmood/backbone-model.git"
+  },
+  "files": [
+    "backbone-model.js"
+  ]
+}
