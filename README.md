@@ -1,4 +1,4 @@
-#Backbone model layer
+#Backbone model and collection
 
 [![Build Status][build-status-image]][travis-url]
 [![NPM version][npm-version-image]][npm-url]
@@ -9,5 +9,5 @@
 [npm-version-image]:http://img.shields.io/npm/v/backbone.model.svg?style=flat-square
 [npm-url]:https://npmjs.org/package/backbone.model
 
-###need Documentation? ༼ つ ◕_◕ ༽つ
-###please goto http://backbonejs.org ༼ つ ◕_◕ ༽つ
+###need Documentation? 
+###please enter http://backbonejs.org ༼ つ ◕_◕ ༽つ 
