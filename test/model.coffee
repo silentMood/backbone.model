@@ -1,7 +1,6 @@
 # Quick Backbone/CoffeeScript tests to make sure that inheritance
 # works correctly.
 
-(typeof global == 'object' && global.global == global && global)._ = require('underscore')
 {ok, equal, deepEqual}      = require 'assert'
 {Model, Collection, Events} = require '../backbone.model'
 

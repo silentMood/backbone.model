@@ -12,7 +12,11 @@
   var root = (typeof self == 'object' && self.self == self && self) ||
             (typeof global == 'object' && global.global == global && global);
 
-  root.Backbone = factory(root, (typeof exports !== 'undefined')? exports : {}, root._, (root.jQuery || root.Zepto || root.ender || root.$));
+  root.Backbone = factory(
+    root, 
+    (typeof exports !== 'undefined')? exports : {}, 
+    ((typeof define === 'function' && define.amd) || typeof exports !== 'undefined')? require('underscore') : root._, 
+    (root.jQuery || root.Zepto || root.ender || root.$));
 }(function(root, Backbone, _, $) {
 
   // Initial Setup
