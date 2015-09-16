@@ -21,7 +21,7 @@
     "lint": "jsl -nofilelisting -nologo -conf docs/jsl.conf -process backbone.model.js"
   },
   "main"          : "backbone.model.js",
-  "version"       : "1.2.33",
+  "version"       : "1.2.34",
   "license"       : "MIT",
   "repository": {
     "type": "git",
